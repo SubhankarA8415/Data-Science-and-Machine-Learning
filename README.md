@@ -67,7 +67,7 @@ This is the production-ready ML project where the model is trained, saved, and d
 - Demonstrates practical ML deployment skills  
 
 Below is a small snippet from `api.py` (full script in repo).  
-📎 *Reference:* api.py logic extracted from uploaded file. :contentReference[oaicite:0]{index=0}
+📎 *Reference:* api.py logic extracted from uploaded file.
 
 ```python
 @app.route('/predict', methods=['POST'])
@@ -76,3 +76,12 @@ def predict():
     df = df.reindex(columns = col_names)
     prediction = list(model.predict(df))
     return jsonify({'prediction': str(prediction)})
+```
+---
+
+## 📞 Contact
+
+**Subhankar Pandit**  
+**Full Stack Developer | Backend Engineer | AI/ML**  
+**GitHub**: https://github.com/SubhankarA8415  
+**LinkedIn**: https://linkedin.com/in/subhankar-pandit 
